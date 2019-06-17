@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
         <div>
            First Name : <br />
-            <asp:TextBox ID="txtFirstName" runat="server" BackColor="#FFCCFF" BorderColor="#000066" BorderStyle="Groove" BorderWidth="2px" Font-Bold="True" Font-Italic="True" ForeColor="Maroon" MaxLength="10" ToolTip="Enter First Name" Width="200px"></asp:TextBox>
+            <asp:TextBox ID="txtFirstName" runat="server" BackColor="#FFCCFF" BorderColor="#000066"  BorderStyle="Groove" BorderWidth="2px" Font-Bold="True" Font-Italic="True" ForeColor="Maroon" MaxLength="10" ToolTip="Enter First Name" Width="200px"></asp:TextBox>
             <br /><br />
             <asp:Label ID="lblLastName" runat="server" Text="Last Name"></asp:Label><br />
             <asp:TextBox ID="txtLastName" runat="server" TabIndex="1"></asp:TextBox>
