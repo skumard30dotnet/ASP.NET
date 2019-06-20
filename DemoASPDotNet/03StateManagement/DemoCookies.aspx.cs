@@ -11,6 +11,17 @@ namespace _03StateManagement
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            try
+            {
+
+            }
+            catch (Exception)
+            {
+
+                
+            }
+
             if (!IsPostBack)
             {
                 // Response.Cookies["nameWithNPCookies"].Value = "This is A Non Persistance Cookie";
