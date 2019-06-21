@@ -17,7 +17,7 @@ namespace _04Validations
         protected void btnLogin_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(txtEmployeeName.Text))
-            {
+            { 
                 Response.Write(txtEmployeeName.Text);
             }
             else
