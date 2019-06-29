@@ -1,0 +1,9 @@
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\BL\bin\Debug\BL.dll
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\BL\bin\Debug\BL.pdb
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\BL\bin\Debug\DAL.dll
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\BL\bin\Debug\Model.dll
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\BL\bin\Debug\DAL.pdb
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\BL\bin\Debug\Model.pdb
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\BL\obj\Debug\BL.dll
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\BL\obj\Debug\BL.pdb

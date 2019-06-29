@@ -1,0 +1,5 @@
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\Model\bin\Debug\Model.dll
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\Model\bin\Debug\Model.pdb
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\Model\obj\Debug\Model.dll
+c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\Model\obj\Debug\Model.pdb

@@ -32,3 +32,37 @@ c:\users\dell\documents\visual studio 2017\Projects\DemoASPDotNet\DemoASPDotNet\
 c:\users\dell\documents\visual studio 2017\Projects\DemoASPDotNet\DemoASPDotNet\obj\Debug\DemoASPDotNet.csprojResolveAssemblyReference.cache
 c:\users\dell\documents\visual studio 2017\Projects\DemoASPDotNet\DemoASPDotNet\obj\Debug\DemoASPDotNet.dll
 c:\users\dell\documents\visual studio 2017\Projects\DemoASPDotNet\DemoASPDotNet\obj\Debug\DemoASPDotNet.pdb
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\csc.exe
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\csc.exe.config
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\csc.rsp
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\csi.exe
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\csi.rsp
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\System.AppContext.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\vbc.exe
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\vbc.exe.config
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\vbc.rsp
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\VBCSCompiler.exe
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\DemoASPDotNet.dll.config
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\DemoASPDotNet.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\DemoASPDotNet.pdb
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\obj\Debug\DemoASPDotNet.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\obj\Debug\DemoASPDotNet.dll
+C:\Users\DELL\Source\Repos\ASP.NET\DemoASPDotNet\DemoASPDotNet\obj\Debug\DemoASPDotNet.pdb
