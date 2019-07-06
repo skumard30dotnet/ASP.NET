@@ -32,6 +32,8 @@ namespace Web
             user.ZipCode = zip.Text;
 
             userBL.Save(user);
+
+            Response.Redirect("UserViewList.aspx");
         }
 
         public void GetById(int userId)
@@ -47,6 +49,11 @@ namespace Web
         public void Delete(int userId)
         {
 
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Save();
         }
     }
 }

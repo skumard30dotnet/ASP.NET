@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DAL;
 using Model;
+using System.Data.SqlClient;
 
 namespace BL
 {
@@ -30,6 +31,12 @@ namespace BL
         {
             //UserDAL userDAL = new UserDAL();
             return userDAL.GetALL();
+        }
+
+        public List<User> GetALLDataAdapter()
+        {
+            //UserDAL userDAL = new UserDAL();
+            return userDAL.GetALLDataAdapter();
         }
 
         public void Delete(int userId)

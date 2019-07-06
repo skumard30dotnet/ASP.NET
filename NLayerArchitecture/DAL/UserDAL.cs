@@ -1,12 +1,9 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Model;
-using System.Data.SqlClient;
 using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 
 namespace DAL
 {
@@ -18,7 +15,7 @@ namespace DAL
         public UserDAL()
         {
             conString = ConfigurationManager.ConnectionStrings["CheckOutConnectionString"].ConnectionString;
-            SqlConnection con = new SqlConnection(conString);
+            con = new SqlConnection(conString);
         }
 
         public void Save(User user)
@@ -38,6 +35,14 @@ namespace DAL
                 cmd.Parameters.AddWithValue("@CountryId", user.CountryId);
                 cmd.Parameters.AddWithValue("@State", user.State);
                 cmd.Parameters.AddWithValue("@ZipCode", user.@ZipCode);
+
+                //Add the output parameter to the command object
+                SqlParameter outPutParameter = new SqlParameter();
+                outPutParameter.ParameterName = "@UserId";
+                outPutParameter.SqlDbType = System.Data.SqlDbType.Int;
+                outPutParameter.Direction = System.Data.ParameterDirection.Output;
+                cmd.Parameters.Add(outPutParameter);
+                string userId = outPutParameter.Value.ToString();
 
                 int result = cmd.ExecuteNonQuery();
 
@@ -83,7 +88,7 @@ namespace DAL
             return usr;
         }
 
-        public User GetById(int userId)
+        public User GetByIdList(int userId)
         {
             SqlConnection con = new SqlConnection(conString);
             con.Open();
@@ -118,10 +123,9 @@ namespace DAL
             try
             {
                 string query = "SELECT * FROM tblUser";
-                SqlConnection con = new SqlConnection(conString);
                 con.Open();
                 SqlCommand cmd = new SqlCommand(query, con);
-                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.CommandType = CommandType.Text;
                 return cmd.ExecuteReader();
             }
             catch (Exception)
@@ -136,18 +140,38 @@ namespace DAL
         }
 
         // SQL Adapter with Inline Query
-        public DataSet GetALLDataAdapter()
+        public List<User> GetALLDataAdapter()
         {
             try
             {
-                string query = "SELECT * FROM tblUser";
-                SqlConnection con = new SqlConnection(conString);
                 con.Open();
-                SqlDataAdapter da = new SqlDataAdapter(query, con);
+                SqlDataAdapter da = new SqlDataAdapter("GetAllUser", con);
                 DataSet ds = new DataSet(); // Collection of Tables
                 //DataTable dt = new DataTable(); If it is only one table
                 da.Fill(ds); // da.Fill(dt); 
-                return ds;
+                User usr = null;
+                List<User> lstUser = new List<User>();
+
+                if (ds != null && ds.Tables.Count > 0)
+                {
+                    foreach (DataRow row in ds.Tables[0].Rows)
+                    {
+                        usr = new User();
+                        usr.FirstName = row["FirstName"].ToString();
+                        usr.LastName = row["LastName"].ToString();
+                        usr.UserName = row["UserName"].ToString();
+                        usr.Email = row["Email"].ToString();
+                        usr.Address1 = row["Address1"].ToString();
+                        usr.Address2 = row["Address2"].ToString();
+                        usr.CountryId = Convert.ToInt32(row["Country"].ToString());
+                        usr.State = row["State"].ToString();
+                        usr.ZipCode = row["ZipCode"].ToString();
+
+                        lstUser.Add(usr);
+                    }
+                }
+
+                return lstUser;
             }
             catch (Exception)
             {
@@ -189,7 +213,59 @@ namespace DAL
 
         public void Delete(int userId)
         {
+            try
+            {
+                SqlConnection con = new SqlConnection(conString);
+                con.Open();
+                SqlCommand cmd = new SqlCommand("spDeleteUserById", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                int result = cmd.ExecuteNonQuery();
+                
+            }
+            catch (Exception)
+            {
 
+                throw;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        public void Update(User user)
+        {
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("SaveUser", con);
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Id", user.Id);
+                cmd.Parameters.AddWithValue("@FirstName", user.FirstName);
+                cmd.Parameters.AddWithValue("@LastName", user.LastName);
+                cmd.Parameters.AddWithValue("@UserName", user.UserName);
+                cmd.Parameters.AddWithValue("@Email", user.Email);
+                cmd.Parameters.AddWithValue("@Address1", user.Address1);
+                cmd.Parameters.AddWithValue("@Address2", user.Address2);
+                cmd.Parameters.AddWithValue("@CountryId", user.CountryId);
+                cmd.Parameters.AddWithValue("@State", user.State);
+                cmd.Parameters.AddWithValue("@ZipCode", user.@ZipCode);
+
+                int result = cmd.ExecuteNonQuery();
+
+                if (result > 0)
+                {
+
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            finally
+            {
+                con.Close();
+            }
         }
     }
 }

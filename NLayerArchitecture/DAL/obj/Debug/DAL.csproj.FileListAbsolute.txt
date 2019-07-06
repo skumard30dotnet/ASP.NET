@@ -5,3 +5,10 @@ c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\DAL\bin\D
 c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\DAL\obj\Debug\DAL.dll
 c:\users\dell\documents\visual studio 2017\Projects\NLayerArchitecture\DAL\obj\Debug\DAL.pdb
+C:\Users\DELL\Source\Repos\ASP.NET\NLayerArchitecture\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Source\Repos\ASP.NET\NLayerArchitecture\DAL\obj\Debug\DAL.dll
+C:\Users\DELL\Source\Repos\ASP.NET\NLayerArchitecture\DAL\obj\Debug\DAL.pdb
+C:\Users\DELL\Source\Repos\ASP.NET\NLayerArchitecture\DAL\bin\Debug\DAL.dll
+C:\Users\DELL\Source\Repos\ASP.NET\NLayerArchitecture\DAL\bin\Debug\DAL.pdb
+C:\Users\DELL\Source\Repos\ASP.NET\NLayerArchitecture\DAL\bin\Debug\Model.dll
+C:\Users\DELL\Source\Repos\ASP.NET\NLayerArchitecture\DAL\bin\Debug\Model.pdb
