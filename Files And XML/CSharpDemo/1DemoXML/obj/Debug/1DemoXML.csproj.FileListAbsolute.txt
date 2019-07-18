@@ -1,0 +1,6 @@
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\1DemoXML\bin\Debug\1DemoXML.exe.config
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\1DemoXML\bin\Debug\1DemoXML.exe
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\1DemoXML\bin\Debug\1DemoXML.pdb
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\1DemoXML\obj\Debug\1DemoXML.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\1DemoXML\obj\Debug\1DemoXML.exe
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\1DemoXML\obj\Debug\1DemoXML.pdb

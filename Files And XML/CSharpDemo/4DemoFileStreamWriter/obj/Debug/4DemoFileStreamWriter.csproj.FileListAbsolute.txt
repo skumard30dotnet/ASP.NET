@@ -1,0 +1,5 @@
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\4DemoFileStreamWriter\bin\Debug\4DemoFileStreamWriter.exe.config
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\4DemoFileStreamWriter\bin\Debug\4DemoFileStreamWriter.exe
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\4DemoFileStreamWriter\bin\Debug\4DemoFileStreamWriter.pdb
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\4DemoFileStreamWriter\obj\Debug\4DemoFileStreamWriter.exe
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\4DemoFileStreamWriter\obj\Debug\4DemoFileStreamWriter.pdb

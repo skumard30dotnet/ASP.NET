@@ -1,0 +1,5 @@
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\2DemoXMLRead\bin\Debug\2DemoXMLRead.exe.config
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\2DemoXMLRead\bin\Debug\2DemoXMLRead.exe
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\2DemoXMLRead\bin\Debug\2DemoXMLRead.pdb
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\2DemoXMLRead\obj\Debug\2DemoXMLRead.exe
+C:\Users\DELL\Source\Repos\ASP.NET\Files And XML\CSharpDemo\2DemoXMLRead\obj\Debug\2DemoXMLRead.pdb
