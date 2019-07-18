@@ -1,0 +1,6 @@
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\Linq\bin\Debug\Linq.exe.config
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\Linq\bin\Debug\Linq.exe
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\Linq\bin\Debug\Linq.pdb
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\Linq\obj\Debug\Linq.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\Linq\obj\Debug\Linq.exe
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\Linq\obj\Debug\Linq.pdb

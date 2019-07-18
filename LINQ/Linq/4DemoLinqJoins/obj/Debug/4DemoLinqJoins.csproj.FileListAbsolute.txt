@@ -1,0 +1,5 @@
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\4DemoLinqJoins\bin\Debug\4DemoLinqJoins.exe.config
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\4DemoLinqJoins\bin\Debug\4DemoLinqJoins.exe
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\4DemoLinqJoins\bin\Debug\4DemoLinqJoins.pdb
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\4DemoLinqJoins\obj\Debug\4DemoLinqJoins.exe
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\4DemoLinqJoins\obj\Debug\4DemoLinqJoins.pdb

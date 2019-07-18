@@ -1,0 +1,6 @@
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\2DemoLinqWithModel\bin\Debug\2DemoLinqWithModel.exe.config
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\2DemoLinqWithModel\bin\Debug\2DemoLinqWithModel.exe
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\2DemoLinqWithModel\bin\Debug\2DemoLinqWithModel.pdb
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\2DemoLinqWithModel\obj\Debug\2DemoLinqWithModel.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\2DemoLinqWithModel\obj\Debug\2DemoLinqWithModel.exe
+C:\Users\DELL\Source\Repos\ASP.NET\LINQ\Linq\2DemoLinqWithModel\obj\Debug\2DemoLinqWithModel.pdb
